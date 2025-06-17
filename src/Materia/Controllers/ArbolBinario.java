@@ -50,4 +50,16 @@ public class ArbolBinario {
             imprimir(node.getRight());
         }
     }
+
+    public boolean buscar(int value){
+        return buscarRec(raiz, value);
+    }
+
+    private boolean  buscarRec(Node padre, int value){
+        int right=0;
+        int left=0;
+        while(left<=right){
+            int medio = (left + right)/2;
+        }
+    }
 }

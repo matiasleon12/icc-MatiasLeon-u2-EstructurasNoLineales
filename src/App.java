@@ -13,5 +13,10 @@ public class App {
         ab.insert(19);
 
         ab.imprimirArbol();
+        
+        ab.buscar(23);
+        if(!ab.buscar(77)){
+            System.out.println(" No Encontrado");
+        }
     }
 }
